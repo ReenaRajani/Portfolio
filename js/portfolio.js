@@ -31,4 +31,17 @@ $(document).ready(function(){
     responsiveHeigt: 0
 
   });
+
+    var pattern  = Trianglify({
+      height: $('#section1').height(),
+      width: $('#section1').width(),
+      cell_size: 120,
+      variance: "0.89",
+      // seed:'OrRd',
+      x_colors: 'random'
+    });
+    $('#section1').css('background-image', 'url(' + pattern.png() + ')');
+    $('#section1').css('background-size', 'cover');
+    $('#section1').css('background-repeat', 'no-repeat');
+
 });

@@ -1,0 +1,20 @@
+#section1{
+  animation: bg 8s infinite;
+  background: linear-gradient(white, #4e4e4e, white);
+  background-size: .1rem 400%;
+
+}
+
+@keyframes bg {
+  0% {
+    background-position: 0 0;
+  }
+  
+  50% {
+    background-position: 0 200%;
+  }
+  
+  100% {
+    background-position: 0 400%;
+  }
+}
