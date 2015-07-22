@@ -1,3 +1,36 @@
+body{
+  font-size:100%
+}
+
+#salutation{
+  font-family: 'Great Vibes', cursive;
+  font-style: oblique;
+  font-size: 5em;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-align: center;
+  transform: rotate(-10deg);
+
+/*  font-family: 'Pacifico', cursive;*/
+}
+
+#writeup{
+  /*font-family: 'Courgette', cursive;*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
+  text-indent: 2em;
+  padding-left: 20em,30em;
+  line-height: 2em;
+/* font-family: 'EB Garamond', serif;
+  
+  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Architects Daughter', cursive;*/
+}
+
 #section1{
   animation: bg 8s infinite;
   background: linear-gradient(white, #4e4e4e, white);
