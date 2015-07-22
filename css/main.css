@@ -1,6 +1,5 @@
 body {
   font-size: 100%;
-  display: none;
 }
 
 #salutation {
@@ -49,9 +48,16 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  max-height: 300px;
-  max-width: 400px;
+  max-height: 500px;
+  max-width: 500px;
   overflow: hidden;
+  border-radius: '10px groove black';
+}
+
+.pics div {
+  width: 100%;
+  display: inline-block;
+  display: none;
 }
 
 .pics .projectImage {
