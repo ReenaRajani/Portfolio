@@ -85,4 +85,6 @@ $(document).ready(function(){
         cycleItems();
     }, 3000);
 
+
+    
 });
