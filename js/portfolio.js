@@ -71,6 +71,7 @@ $(document).ready(function(){
     itemAmt = items.length;
 
     var cycleItems = function() {
+        
         var item = $('.pics div').eq(currentIndex);
         items.hide();
         item.css('display','inline-block');

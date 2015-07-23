@@ -54,7 +54,6 @@ body{
   max-height: 500px;
   max-width: 500px;
   overflow: hidden;
-  flex-flow: row nowrap;
   justify-content: space-between;
   border-radius: '10px groove black';
   div{
@@ -65,11 +64,9 @@ body{
   .projectImage {
       height: auto;
       width: 100%; 
-      flex: 0 0 300px;
    }
 
    .projectDesc {
-    /*display:inline-block;*/
-    flex: 0 1 100px;
+    display:inline-block;
    }
 }

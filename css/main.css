@@ -51,7 +51,6 @@ body {
   max-height: 500px;
   max-width: 500px;
   overflow: hidden;
-  flex-flow: row nowrap;
   justify-content: space-between;
   border-radius: '10px groove black';
 }
@@ -65,10 +64,8 @@ body {
 .pics .projectImage {
   height: auto;
   width: 100%;
-  flex: 0 0 300px;
 }
 
 .pics .projectDesc {
-  /*display:inline-block;*/
-  flex: 0 1 100px;
+  display: inline-block;
 }
