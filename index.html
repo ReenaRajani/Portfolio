@@ -1,118 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Reena's Portfolio</title>
-  
-  <!-- List of Scripts used  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
-  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script>
-  
-
-  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-  <script type="text/javascript" src="js/jquery.easings.min.js"></script>
-  <script type="text/javascript" src="js/portfolio.js"></script>
-  
-  <!-- StyleSheet links -->
-  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-  <link rel="stylesheet" href="css/main.css">
-  
-  <!-- fonts used -->
-  <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Dancing+Script:700|Cabin+Condensed:600|Josefin+Sans:600|EB+Garamond|Architects+Daughter|Courgette' rel='stylesheet' type='text/css'>
-
-</head>
-<body>
-  <div id="fullpage">
-    <!-- Section 1  -->
-    <div class="section" id="section1">
-      <p id="salutation"> Hi There! </p>
-      <p id="writeup">  
-         I am a Full Stack Web Developer constantly seeking to learn
-         <br> and in pursuit of a career that focuses on web development 
-     </p> 
-    </div>
-
-     <!-- Section 2 with Project Details -->
-    <div class="section" id="section2" >
-      <h2>My Projects </h2>
-      <div class="slide" id="project1">
-        <h1>Tic Tac Toe</h1>
-        <div class="pics">
-          <div>
-            <img src="images/tictactoecanvas.png" alt="tictactoe" class="projectImage">
-          </div>
-          <div>
-            <img src="images/tictactoehtml.png" alt="tictactoe" class="projectImage">
-          </div>
-        </div>
-        <p id="projectDesc">
-           A simple Game built using HTML canvas and Javascript 
-        </p>
-       
-
-
-      </div>
-      <div class="slide" id="project2">
-        <h1>What's Cooking </h1>
-        
-        <div class="pics">
-          <div>
-            <img src="images/recipe2.png" alt="whatscooking" class="projectImage">
-          </div>
-          <div>
-            <img src="images/recipe3.png" alt="whatscooking" class="projectImage">
-          </div>
-          <div>
-            <img src="images/recipe4.png" alt="whatscooking" class="projectImage">
-          </div>
-          <div>
-            <img src="images/recipe5.png" alt="whatscooking" class="projectImage">
-          </div>
-
-        </div>
-        
-        <p id="projectDesc">
-           A Recipe finder app built using Rails and HTML , CSS and Bootstrap
-        </p>
-
-      </div>
-      <div class="slide" id="project3">
-        <h1>Drawsome</h1>
-        
-        <div class="pics">
-            <img src="images/drawsome_thumb.png" alt="drawsome" class="projectImage">
-        </div>
-        
-        <p id="projectDesc">
-           A group Project that is a replica of a Drawful game by built using Websockets, rails , backbone
-        </p>
-      </div>
-      
-      <div class="slide" id="project4">
-        <h1>Plan Easy</h1>
-        
-        <div class="pics">
-          <div>
-            <img src="images/planeasy2.png" alt="planeasy" class="projectImage">
-          </div>
-          <div>
-            <img src="images/planeasy1.png" alt="planeasy" class="projectImage">
-          </div>
-        </div>
-        
-        <p id="projectDesc">
-            A Event planners app built using Ruby on rails 
-        </p>
-      </div>
-    </div>
-
-    <!-- Section 3 with Contact Me Page -->
-    <div class="section" id="section3"> Contact Details </div>
+    <meta charset="UTF-8">
+    <title>Reena's Portfolio</title>
     
+    <!-- List of Scripts used  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="js/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/portfolio.js"></script>
+    
+    <!-- StyleSheet links -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- fonts used -->
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Dancing+Script:700|Cabin+Condensed:600|Josefin+Sans:600|EB+Garamond|Architects+Daughter|Courgette' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
 
-  </div>
-  
+<body>
+    <div id="fullpage">
+        <!-- Section 1  -->
+        <div class="section" id="section1">
+            <p id="salutation"> Hi There! </p>
+            <p id="writeup">
+                I am a Full Stack Web Developer constantly seeking to learn
+                <br> and in pursuit of a career that focuses on web development
+            </p>
+        </div>
+        <!-- Section 2 with Project Details -->
+        <div class="section" id="section2">
+            <div class="slide" id="project1">
+              <div class="content_left">
+                <h1>Tic Tac Toe</h1>
+                <div class="pics">
+                    <div>
+                        <img src="images/tictactoecanvas.png" alt="tictactoe" class="projectImage">
+                    </div>
+                    <div>
+                        <img src="images/tictactoehtml.png" alt="tictactoe" class="projectImage">
+                    </div>
+                </div>
+              </div>
+                
+                <div id="projectDesc" class="content_right">
+                    <p>
+                         Tic tac toe reminds me of those innocent days where school recess meant a small scribbles of knots and crosses(as we called it then) with friends. This memory inspired me to build the project using HTML canvas and another version in jQuery as a battle setting between Yoda and Darth Vader.
+                    </p>
+                    <p>
+                        It was a fun experience working on the same project twice but each done differently. One reminds of my childhood and the other made me become a child once again with the sound effects and the winner’s mime. They also taught me that the only limitation is one’s imagination.
+                    </p>
+                    <p>
+                     
+                     The project was built using HTML5 Canvas, jQuery, CSS 
+                    </p>
+                </div>
+            </div>
+            <div class="slide" id="project2">
+                <h1>What's Cooking </h1>
+                <div class="pics">
+                    <div>
+                        <img src="images/recipe2.png" alt="whatscooking" class="projectImage">
+                    </div>
+                    <div>
+                        <img src="images/recipe3.png" alt="whatscooking" class="projectImage">
+                    </div>
+                    <div>
+                        <img src="images/recipe4.png" alt="whatscooking" class="projectImage">
+                    </div>
+                    <div>
+                        <img src="images/recipe5.png" alt="whatscooking" class="projectImage">
+                    </div>
+                </div>
+                <div id="projectDesc">
+                    <p>
+                        My love for food and cooking inspired me to build this recipe search site where a user could search recipes based on the ingredients and the diet type. Based on the search criteria, the recipes are listed to the user. There is an option for saving the recipes as favorites for future reference. if the user is logged on.
+                    </p>
+                    <p>
+                      Searching for a recipe API that works was the sour bit in this project and my future changes to the project would be to make the user add his/her recipes and a comment/review module  
+                    </p>
+                    <p>
+                      The poject is build using Rails4, Postgres as the database, Bootstrap for the designing and edaman API for the recipes
+                    </p>
+                </div>
+            </div>
+            <div class="slide" id="project3">
+                <h1>Drawsome</h1>
+                <div class="pics">
+                    <img src="images/drawsome_thumb.png" alt="drawsome" class="projectImage">
+                </div>
+                <div id="projectDesc">
+                    <p>
+                        This was a group Project that was a inspired from Drawful by Jackful games and is designed for 3-8 players each competing on seperate web browsers.The project was quite ambitious given a week's duration but was fun and a great team effort. 
+                    </p>
+                    <p>
+                        The game features free hand drawing onto a blank space, made possible through HTML5's Canvas API with help from the Paper.js library. In order to achieve a real-time drawing effect across all clients, websockets were used for client/server communication. While the 'drawer' interacted with the games canvas, graphical data was sent through our Ruby on Rails backend and emitted to all participating players. This was all tied together using a single-page Backbone application to give the user a pleasant gaming experience. </p>
+                    <p>
+                        However, we are aware of many problems that could be resolved and have come up with the following improvements: - Optimise Backbone.js views - Support multiple games running simultaneously - Offer a flexible colour palette - Anti-aliasing on canvas paths
+                    </p>
+                </div>
+            </div>
+            <div class="slide" id="project4">
+                <h1>Plan Easy</h1>
+                <div class="pics">
+                    <div>
+                        <img src="images/planeasy2.png" alt="planeasy" class="projectImage">
+                    </div>
+                    <div>
+                        <img src="images/planeasy1.png" alt="planeasy" class="projectImage">
+                    </div>
+                </div>
+                <div id="projectDesc">
+                    <p>
+                        Any one planning for an event, be it a simple birthday party or a meeting to a large scale wedding party, would know how tough and difficult it is to get it organized. Plan easy is a web application that helps users organize important personal gatherings for special occasions, including parties, graduations and other friend and family focused celebrations. With PlanEasy a user can create an event, manage its guest list, send invites and receive its RSVP status.
+                    </p>
+                    <p>
+                        The scope of the project is huge and only a part of it was focused hence my future enhancements to this project would include Sending personalized invites other than plain text messages An event planning to do’s tracker Geo-location related hints
+                    </p>
+                    <p>
+                        The project was built using Rails4, Mandrill, Bootstrap, and jQuery 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Section 3 with Contact Me Page -->
+        <div class="section" id="section3">
+        <h2> A little About Me</h2>
+              
+              A funloving, bubbly and highly motivated gal is what others think of me.. 
+
+              <p>Well,you will know that if you get to know me!!</p>
+
+              <p>
+                Professionally, I have over 4 years of experience in EAI/Middleware technologies in the banking domain.After being on a maternity break for over 2 years, I joined GA to upskill my programming capabilities progress on my interests in web development. 
+              </p>
+
+            <p>Qualities that I associate myself to are passion,people skills,team player and result oriented.I always have an eye on my target and endeavour to deliver high quality work on time every time. I love what I do and I have enough motivation for myself.I believe that its never too late to learn anything.</p>
+
+            <p>Apart from coding I love being a Gemini, dancing, cooking and reading books. </p>
+
+            <h2>Contact Details  </h2>
+        
+            <a href="https://github.com/ReenaRajani"> <i class="fa fa-github-square fa-5x"></i> </a>
+            <a href="https://au.linkedin.com/in/reenarajani"><i class="fa fa-linkedin-square fa-5x"></i> </a>
+              <a href="https://twitter.com/ReenaRajani"></a><i class="fa fa-twitter-square fa-5x"></i>
+              <i class="fa fa-envelope-square fa-5x"></i>
+
+              <p>"Education is not the preparation for life; education is life itself"</p>
+         </div>
+    </div>
 </body>
+
 </html>

@@ -32,14 +32,6 @@ $(document).ready(function(){
 
   });
 
-    // pattern  = Trianglify({
-    //       height: $('#section1').height(),
-    //       width: $('#section1').width(),
-    //       cell_size: 120,
-    //       variance: "0.89",
-    //       // seed:'OrRd',
-    //       x_colors: 'random'
-    // });
 
     var colorFunc = function(x, y) {
           return 'hsl('+Math.floor(Math.abs(x*y)*360)+',80%,60%)';
@@ -51,7 +43,7 @@ $(document).ready(function(){
           width: width,
           cell_size: 120,
           variance: variance,
-          x_colors: 'random',
+          x_colors: 'Oranges',
           
     });
         return pattern;
