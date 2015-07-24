@@ -48,18 +48,17 @@ body{
 }
 
 .pics {
-  margin:50px auto;
-  padding:10px;
+  margin:65px;
+  padding:20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 430px;
+  max-width: 330px;
   overflow: hidden;
   justify-content: space-between;
-  border-radius: '10px groove black';
+  border: 10px groove black;
   div{
     width : 100%;
     display:inline-block;
-    display:none;
   }
   .projectImage {
       height: auto;

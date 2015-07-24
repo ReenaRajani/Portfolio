@@ -65,25 +65,22 @@ $(document).ready(function(){
     $('#section1').css('background-image', 'url(' + pattern.png() + ')');
     $('#section1').css('background-size', 'cover');
     $('#section1').css('background-repeat', 'no-repeat');
+    
+    $(".pics ").slick({
+        slidesToShow: 1,
+        speed:300,
+        autoplay: true,
+        fade: true,
+        infinite: true,
+        pauseOnHover:true,
+        cssEase: 'linear',
+        arrows:false,
+        respondTo:'window',
+        adaptiveHeight: true,
 
-    var currentIndex = 0,
-    items = $('.pics div'),
-    itemAmt = items.length;
 
-    var cycleItems = function() {
-        
-        var item = $('.pics div').eq(currentIndex);
-        items.hide();
-        item.css('display','inline-block');
-    };
 
-    var autoSlide = setInterval(function() {
-        currentIndex += 1;
-        if (currentIndex > itemAmt - 1) {
-            currentIndex = 0;
-        }
-        cycleItems();
-    }, 3000);
+    });
 
 
     
