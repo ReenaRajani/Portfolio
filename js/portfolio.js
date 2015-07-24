@@ -43,7 +43,7 @@ $(document).ready(function(){
           width: width,
           cell_size: 120,
           variance: variance,
-          x_colors: 'Oranges',
+          x_colors: 'random',
           
     });
         return pattern;
@@ -57,6 +57,12 @@ $(document).ready(function(){
     $('#section1').css('background-image', 'url(' + pattern.png() + ')');
     $('#section1').css('background-size', 'cover');
     $('#section1').css('background-repeat', 'no-repeat');
+
+    $('.contacts').css('background-image', 'url(' + pattern.png() + ')');
+    $('.contacts').css('background-size', 'cover');
+    $('.contacts').css('background-repeat', 'no-repeat');
+
+
     
     $(".pics ").slick({
         slidesToShow: 1,
@@ -67,10 +73,8 @@ $(document).ready(function(){
         pauseOnHover:true,
         cssEase: 'linear',
         arrows:false,
-        respondTo:'window',
-        adaptiveHeight: true,
-
-
+        respondTo:'min',
+        adaptiveHeight: true
 
     });
 

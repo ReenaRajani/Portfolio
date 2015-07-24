@@ -47,7 +47,7 @@ body{
 
 #section2{
 
-  background-color: white;
+  background-color: #E85737;
   font-family: 'Cabin Condensed', sans-serif;
     p {
     font-size: 1.5em;
@@ -59,18 +59,17 @@ body{
   background-color: #E85737;
   font-family: 'Architects Daughter', cursive;
 
-
 }
 
 .pics {
   margin:0 auto;
   padding:20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
   max-height: 80%;
   max-width: 80%;
   overflow: hidden;
   justify-content: space-between;
-  border: 10px groove black;
+  /*border: 10px groove black;*/
   div{
     width : 100%;
     display:inline-block;
@@ -95,4 +94,13 @@ body{
 .content_right {
 display:inline-block;
 width:30%;
+}
+
+.contacts {
+  margin:0 auto;
+  text-align: center;
+  width:110%;
+  margin-left:-70px;
+  min-height: 180px;
+  padding-top: 10px;
 }
