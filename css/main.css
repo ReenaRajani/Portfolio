@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  text-align: left;
+}
+
+.section {
+  padding: 10px 60px 10px 60px;
+}
+
+#salutation {
+  font-family: 'Great Vibes', cursive;
+  font-style: oblique;
+  font-size: 5em;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-align: center;
+  transform: rotate(-10deg);
+}
+
+#writeup {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
+  text-indent: 2em;
+  padding-left: 20em, 30em;
+  line-height: 2em;
+  /* 
+  font-family: 'EB Garamond', serif;
+   font-family: 'Courgette', cursive;
+   font-family: 'Cabin Condensed', sans-serif;
+   font-family: 'Architects Daughter', cursive;
+   */
+}
+
+#section1 {
+  animation: bg 8s infinite;
+  background-size: .1rem 400%;
+}
+
+#section2 {
+  background-color: #E85737;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+#section2 p {
+  font-size: 1.5em;
+}
+
+#section3 {
+  background-color: #E85737;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.pics {
+  margin: 0 auto;
+  padding: 20px;
+  /*box-shadow: 0 0 20px rgba(0,0,0,0.4);*/
+  max-height: 80%;
+  max-width: 80%;
+  overflow: hidden;
+  justify-content: space-between;
+  /*border: 10px groove black;*/
+}
+
+.pics div {
+  width: 100%;
+  display: inline-block;
+}
+
+.pics .projectImage {
+  height: auto;
+  width: 100%;
+}
+
+.pics .projectDesc {
+  display: inline-block;
+}
+
+.content_left {
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
+  max-height: 100%;
+}
+
+.content_right {
+  display: inline-block;
+  width: 30%;
+}
+
+.contacts {
+  margin: 0 auto;
+  text-align: center;
+  width: 110%;
+  margin-left: -70px;
+  min-height: 180px;
+  padding-top: 10px;
+}
