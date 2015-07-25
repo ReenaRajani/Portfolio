@@ -95,19 +95,6 @@ body {
   width: 30%;
 }
 
-.con_icon{
-  margin-left: 30px;
-}
-
-.spanWord{
-  color: white;
-}
-
-.con_icon:hover{
-  color: white;
-  font-size: 2em;
-}
-
 .contacts {
   margin: 0 auto;
   text-align: center;
