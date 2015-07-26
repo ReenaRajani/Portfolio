@@ -67,14 +67,15 @@ $(document).ready(function(){
         slidesToShow: 1,
         speed:300,
         autoplay: true,
+        autoplaySpeed:2000,
         fade: true,
         infinite: true,
         pauseOnHover:true,
         cssEase: 'linear',
         arrows:false,
         respondTo:'min',
-        adaptiveHeight: true
-
+        adaptiveHeight: true,
+        slidesToShow: 1
     });
 
 
