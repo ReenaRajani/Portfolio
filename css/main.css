@@ -11,6 +11,17 @@ body {
   padding: 10px 60px 10px 60px;
 }
 
+h2 {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  /* font-size: 2em;*/
+  letter-spacing: 3px;
+}
+
+.spanWord {
+  color: white;
+}
+
 #salutation {
   font-family: 'Great Vibes', cursive;
   font-style: oblique;
@@ -46,7 +57,8 @@ body {
 
 #section2 {
   background-color: #E85737;
-  font-family: 'Cabin Condensed', sans-serif;
+  /*  font-family: 'Cabin Condensed', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #section2 p {
@@ -55,7 +67,9 @@ body {
 
 #section3 {
   background-color: #E85737;
-  font-family: 'Architects Daughter', cursive;
+  /*font-family: 'Architects Daughter', cursive;*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
 }
 
 .pics {

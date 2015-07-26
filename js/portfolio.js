@@ -7,11 +7,10 @@ $(document).ready(function(){
     fitToSection: true, 
     loopHorizontal: true, 
     loopBottom: true, 
+    loopTop: true,
     keyboardScrolling: true, 
     navigation: true, 
-    navigationPosition: 'right', 
-    slidesNavigation: true, 
-    slidesNavPosition: 'bottom',
+    navigationPosition: 'right',
     
     //scrolling 
     css3: true,
@@ -26,7 +25,7 @@ $(document).ready(function(){
     controlArrows: true,
     resize: true, 
     // sectionsColor: ['#003399', '#335CAD', '#6685C2'],
-    paddingTop: '3em',
+    paddingTop: '1em',
     responsiveWidth: 0,
     responsiveHeigt: 0
 
