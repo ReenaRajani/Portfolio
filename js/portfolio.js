@@ -42,7 +42,7 @@ $(document).ready(function(){
           width: width,
           cell_size: 120,
           variance: variance,
-          x_colors: 'random',
+          x_colors: 'RdGy',
           
     });
         return pattern;
