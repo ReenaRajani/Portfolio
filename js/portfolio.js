@@ -20,6 +20,7 @@ $(document).ready(function(){
     easingcss3: 'ease',
     scrollOverflow: false, 
     scrollingSpeed: 800, 
+    continuousVertical: false,
 
     //Design
     controlArrows: true,
