@@ -10,7 +10,7 @@ $(document).ready(function(){
     keyboardScrolling: true, 
     navigation: true, 
     navigationPosition: 'right', 
-    loopTop: true,
+    loopTop: false,
     
     //scrolling 
     css3: true,
