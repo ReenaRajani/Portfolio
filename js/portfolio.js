@@ -57,6 +57,15 @@ $(document).ready(function(){
     $('#section1').css('background-size', 'cover');
     $('#section1').css('background-repeat', 'no-repeat');
 
+      height = $('#section1').height();
+      width = $('#section1').width();
+      pattern = setPattern(height,width,"0.59");
+
+    // $('#section3').css('background-image', 'url(' + pattern.png() + ')');
+    // $('#section3').css('opacity', '0.3');
+    // $('#section3').css('background-size', 'cover');
+    // $('#section3').css('background-repeat', 'no-repeat');
+
     $('.contacts').css('background-image', 'url(' + pattern.png() + ')');
     $('.contacts').css('background-size', 'cover');
     $('.contacts').css('background-repeat', 'no-repeat');
