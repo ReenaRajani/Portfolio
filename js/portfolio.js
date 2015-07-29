@@ -84,7 +84,7 @@ $(document).ready(function(){
         cssEase: 'linear',
         arrows:false,
         respondTo:'min',
-        adaptiveHeight: true,
+        // adaptiveHeight: true,
         slidesToShow: 1
     });
 
